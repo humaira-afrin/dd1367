@@ -1,3 +1,11 @@
+## Binsight
+The application facilitates manual data entry and structured storage of pharmaceutical waste records, allowing for aggregation and analysis of waste-related metrics across departments and time intervals.
+## Overview
+
+## Project Structure
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
