@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React, { useMemo, useState } from "react";
 import {
   ResponsiveContainer,
@@ -541,9 +542,19 @@ export default function Page() {
     <div className="min-h-screen bg-slate-50">
       <div className="border-b border-slate-200 bg-white">
         <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
-          <div>
-            <div className="text-sm text-slate-500">{user.hospitalName}</div>
-            <div className="text-xl font-semibold text-slate-900">BinCalc Waste Dashboard</div>
+          <div className="flex items-center gap-3">
+            <Image
+              src="/binsight-logo.png"
+              alt="Binsight"
+              width={48}
+              height={48}
+              className="rounded"
+              priority
+            />
+            <div>
+              <div className="text-sm text-slate-500">{user.hospitalName}</div>
+              <div className="text-xl font-semibold text-slate-900">BinCalc Waste Dashboard</div>
+            </div>
           </div>
           <div className="text-sm text-slate-600">
             {user.name} · <span className="font-medium">{user.role}</span>
