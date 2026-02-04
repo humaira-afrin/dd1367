@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        display: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #335caa;
+      }
+    </style>
+  </defs>
+  <circle id="BG_circle" data-name="BG circle" class="cls-2" cx="16" cy="16" r="16"/>
+  <path id="Top_hat" data-name="Top hat" class="cls-3" d="M20.17,7.03c-.24.79-.7,1.32-1.01,1.59-.25.23-.71.62-1.41.75-.8.14-1.38.14-1.75.14s-.95,0-1.75-.14c-.7-.13-1.16-.52-1.41-.75-.31-.28-.77-.8-1.01-1.59-.19-.66-.11-1.25-.03-1.58h1.97c.3,0,.83.25,1.32.73.68.64.87,1.41.92,1.67.05-.26.24-1.03.92-1.67.49-.48,1.02-.73,1.31-.73h1.98c.08.33.16.92-.03,1.58Z"/>
+  <path class="cls-3" d="M23.28,21.15c0,1.95-1.21,3.63-2.92,4.3-.33.14-.68.24-1.04.29h-9.19v-11.26c0-2.21,1.8-4,4-4h4.2c.75,0,1.45.22,2.03.61.99.66,1.65,1.79,1.65,3.07,0,1.14-.52,2.16-1.33,2.83,1.54.74,2.6,2.33,2.6,4.16Z"/>
+  <rect id="Centre_pill_2" data-name="Centre pill 2" class="cls-2" x="15" y="18.5" width="2" height="4" rx="1" ry="1"/>
+  <rect id="Centre_pill_1" data-name="Centre pill 1" class="cls-2" x="15" y="14.11" width="2" height="2.94" rx="1" ry="1"/>
+  <path class="cls-3" d="M19.31,25.7c-.22.03-.45.05-.68.05s-.45-.02-.67-.05h1.35Z"/>
+  <rect class="cls-1" x="9.43" y="10.47" width="13.15" height="15.28"/>
+</svg>
