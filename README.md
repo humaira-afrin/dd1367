@@ -10,19 +10,39 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Node.js 20.9.0 or higher** (Required - this project will not work with older versions)
+  - Check your version: `node --version`
+  - Install Node.js 20+ using [nvm](https://github.com/nvm-sh/nvm):
+    ```bash
+    nvm install 20
+    nvm use 20
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd dd1367
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Run the development server:
+   ```bash
+   npm run dev   
+  
+4. Run the development server:
+   Open http://localhost:3000 in your browser
+   
+#### Troubleshooting
+If you encounter errors during installation, ensure you're using Node.js 20 or higher.
+In some cases the ``recharts`` package needs to be installed.
+
+______________________________________________________________________________________________________
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
